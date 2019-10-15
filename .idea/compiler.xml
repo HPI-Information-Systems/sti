@@ -6,22 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sti" />
-        <module name="sti-any23" />
-        <module name="sti-common-util" />
-        <module name="sti-kbsearch" />
         <module name="sti-main" />
+        <module name="sti (1)" />
+        <module name="sti-common-util" />
+        <module name="sti-any23" />
+        <module name="sti-kbsearch" />
         <module name="sti-websearch" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="sti" target="1.8" />
-      <module name="sti-any23" target="1.8" />
-      <module name="sti-common-util" target="1.8" />
-      <module name="sti-kbsearch" target="1.8" />
-      <module name="sti-main" target="1.8" />
-      <module name="sti-package" target="1.5" />
-      <module name="sti-websearch" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

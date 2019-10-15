@@ -84,12 +84,12 @@
                     <additionalparam>-Xdoclint:none</additionalparam>
                 </configuration>
                 <executions>
-                    <execution>
+                    <!--execution>
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
-                    </execution>
+                    </execution-->
                 </executions>
             </plugin>
 	    <!-- signing is only needed if this needs to be released into maven central-->

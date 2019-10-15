@@ -198,7 +198,7 @@ public class SubjectColumnDetector {
         return rs;
     }
 
-    private void computeWSScores(Table table, List<TColumnFeature> featuresOfNEColumns) throws APIKeysDepletedException, IOException, ClassNotFoundException {
+    protected void computeWSScores(Table table, List<TColumnFeature> featuresOfNEColumns) throws APIKeysDepletedException, IOException, ClassNotFoundException {
         LOG.debug("Computing web search matching (total rows " + table.getNumRows());
 
         DoubleMatrix2D scores;
