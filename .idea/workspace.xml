@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0db8bd-785a-4a37-9666-c78ff800f277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/ConfusionMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/CustomSubjectColumnDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/SubjectColumnDetectionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3e0db8bd-785a-4a37-9666-c78ff800f277" name="Default Changelist" comment="Added Baseline experiment to use Subject Column Detector for natural key discovery in Wikipedia tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sti.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/sti.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/core/subjectcol/SubjectColumnDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/core/subjectcol/SubjectColumnDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/core/subjectcol/SubjectColumnScorerHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/sti-main/src/uk/ac/shef/dcs/sti/core/subjectcol/SubjectColumnScorerHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +53,7 @@
   </component>
   <component name="ProjectId" id="1OYCI4vLoA5vU775mbcf46RSc7y" />
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -144,8 +135,16 @@
       <workItem from="1562512496630" duration="3447000" />
       <workItem from="1564145062621" duration="1291000" />
       <workItem from="1565011262321" duration="14000" />
-      <workItem from="1571133250479" duration="1168000" />
+      <workItem from="1571133250479" duration="2259000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Baseline experiment to use Subject Column Detector for natural key discovery in Wikipedia tables">
+      <created>1571137863024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571137863024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +162,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Baseline experiment to use Subject Column Detector for natural key discovery in Wikipedia tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Baseline experiment to use Subject Column Detector for natural key discovery in Wikipedia tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
